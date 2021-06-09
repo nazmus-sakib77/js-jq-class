@@ -1,0 +1,52 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.header {
+    height: 80px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: rgb(180, 101, 255);
+    color: white;
+  }
+  .header_content {
+    display: none;
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    color: white;
+  }  
+
+.h1-t{
+  margin-top: 20px;
+}
+
+.sh-hd{
+  cursor: pointer;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.fade1{
+  cursor: pointer;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.content-fade{
+  display: none;
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+
+.fade1:hover{
+  color: red;
+}
+
+.sh-hd:hover{
+  color: red;
+}
